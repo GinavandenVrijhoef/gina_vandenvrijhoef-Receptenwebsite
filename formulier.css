@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.rounded {
+    background-color: #000000;
+    color: #fefece;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+html, body {
+    background-color: #fefece;
+    margin: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+h1{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+label{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+textarea{
+    width: 460px;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a{
+    color: #00008b;
+}
+
+a:hover{
+    color: red;
+} 
+
+@media (min-width: 768px){
+    html, body{
+        background-color: rgb(255, 211, 218);
+        color: darkblue;
+    }
+
+    .rounded {
+        background-color: #000000;
+        color: rgb(255, 211, 218);
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    textarea{
+        width: 720px;
+    }
+
+.input checkbox{
+    margin: 10px;
+}
+
+}
+
+@media (min-width: 1024px){
+    
+    html, body{
+        background-color: lightskyblue;
+        color: black;
+}
+
+.rounded {
+    background-color: #000000;
+    color: lightskyblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+
+    textarea{
+        width: 720px;
+        }  
+}
